@@ -1,0 +1,62 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¡Feliz cumpleaños, Amanda!</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        p {
+            font-size: 1.5em;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .balloons {
+            margin-top: 30px;
+        }
+        .balloon {
+            display: inline-block;
+            width: 50px;
+            height: 70px;
+            margin: 0 10px;
+            background-color: #ff6f61;
+            border-radius: 50% 50% 45% 45% / 60% 60% 40% 40%;
+            position: relative;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        /* Colores variados para los globos */
+        .balloon:nth-child(2) { background-color: #6a82fb; }
+        .balloon:nth-child(3) { background-color: #fbc531; }
+        .balloon:nth-child(4) { background-color: #4cd137; }
+        .balloon:nth-child(5) { background-color: #e84118; }
+    </style>
+</head>
+<body>
+    <h1>¡Feliz cumpleaños, Amanda!</h1>
+    <p>¿Sabes?, siempre quise hacer algo lindo por ti. Ahora 
+      tengo la oportunidad de hacerlo. Eres especial para mí 
+      y así será por siempre.</p>
+    <div class="balloons">
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+    </div>
+</body>
+</html>
